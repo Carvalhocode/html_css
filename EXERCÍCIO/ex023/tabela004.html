@@ -5,16 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <table>
         <thead>
-            <th>
-                <tr>Grupo</tr>
-                <tr>Nomes</tr>
-                <tr>Filmes</tr>
-            </th>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</h>
+                <th colspan="3">Filmes</th>
+            </tr>
         </thead>
+        <tbody>
+            <tr>
+                <td>MULHERES</td>
+                <td>Ana Maria Santos</td>
+                <td>Beatriz Souza</td>
+                <td>Cláudia Melo</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
